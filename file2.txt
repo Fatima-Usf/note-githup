@@ -1,1 +1,19 @@
-* Hello World *
+* Notes for using Git *
+
+---- tO START A new repository --
+* From a remote:
+  git clone LINK
+* From nothing
+  git init
+
+------ to pull changes from remote to local repository ---
+git pull origin master
+
+---- to push changes to origin ----
+* Add changes to staging area
+  git add . -A
+  or: git add FILE1 FILE2
+* Commit changes:
+  git commit -m "My awesome commit message"
+* Push it!
+  git push -u origin master
