@@ -16,4 +16,5 @@ git pull origin master
 * Commit changes:
   git commit -m "My awesome commit message"
 * Push it!
+  git remote add origin LIEN
   git push -u origin master
